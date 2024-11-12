@@ -1,10 +1,3 @@
-# uncompyle6 version 3.9.1
-# Python bytecode version base 3.8.0 (3413)
-# Decompiled from: Python 3.8.15 (default, Nov  4 2022, 20:59:55) 
-# [GCC 11.2.0]
-# Embedded file name: /media/weiwei/disk2/GNN/VODP/model.py
-# Compiled at: 2024-06-16 14:54:09
-# Size of source mod 2**32: 12401 bytes
 import h5py, numpy as np, torch
 from torch import nn
 import sys, os
