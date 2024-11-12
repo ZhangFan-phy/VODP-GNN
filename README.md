@@ -1,2 +1,2 @@
-### GNN for mixed VODPs
-
+# GNN for mixed VODPs
+The transformer-inspired graph neural network(GNN) can accurantely predict the bandgaps and formation energy of mixed vacancy ordered double perovskites (VODPs), which can directly map unrelaxed structures to physical properties. The unrelaxed supercells only include the compositions and the particular arrangement of elements in the mixed system. This scheme can allow us to skip both the costly structural relaxation and property evalution steps.
