@@ -1,0 +1,1 @@
+The dataset consists the structure information, DFT band gap, DFT formation energy for 3889 mixed vacancy-ordered dpuble perovskites (VODPs). And the input .pt file in this folder includes 23334 samples after data augmentation.
