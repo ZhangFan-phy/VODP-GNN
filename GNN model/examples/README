@@ -1,0 +1,8 @@
+Here we provide an example for predicting the DFT bandgap for a 144-atoms supercell.
+(1) 20 structures randomly generated at a given stoichiometric ratio for {CsRb}2{TiZrHfPdPtSnTe}{ClBrI}6
+python generate_supercell.py a1 m1 m2 m3 m4 m5 m6 x1 x2
+Here a1, m1, m2, m3, m4, m5, m6, x1, x2 represent the number of atoms for Cs, Ti, Zr, Hf, Pd, Pt, Sn, Cl, Br in 144-atoms supercell, respectively.
+(2) Generate input .pt file
+python generate_input.py
+(3) Predict the DFT bandgap
+python Evaluate_model.py
