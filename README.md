@@ -7,6 +7,6 @@ The transformer-inspired graph neural network(GNN) can accurantely predict the b
 Our model was implemented with the Pytorch and PyG (PyTorch Geometric) ML frameworks.
 
 # Model training
-The main script to train model is `model.py` in "GNN model" folder. A user needs the following information to train a model: 1) `input_AMX.pt` with the atomic information containing electron shell configuration, electronegativity, ionic radius and the element site. 2) `mask_edge.pt` with edge incex. 3) `mask_coord.pt` with the distance vector. 4) `gap.pt` with the DFT bandgap. 5) `formation.pt` with the DFT formation energy. 
+The main script to train model is `model.py` in `GNN model` folder. A user needs the following information to train a model: 1) `input_AMX.pt` with the atomic information containing electron shell configuration, electronegativity, ionic radius and the element site. 2) `mask_edge.pt` with edge incex. 3) `mask_coord.pt` with the distance vector. 4) `gap.pt` with the DFT bandgap. 5) `formation.pt` with the DFT formation energy. 
 
 We provide an example to predict the DFT band gap of mixed VODP with 144-atoms supercell in `GNN model/examples` folder using the trained model. 
